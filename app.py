@@ -14,7 +14,7 @@ CORS(app)
 
 # Load your pre-trained model
 try:
-    model = load_model("C:/Users/india/OneDrive/Desktop/college_ML_backend/facial_expression_model.keras")
+    model = load_model("facial_expression_model.keras")
 except:
     print("model not loaded")
 if model:
